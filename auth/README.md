@@ -30,9 +30,11 @@ Getting Started
  1. Enable the authentication method you want to use by going to the **Authentication** section in the **SIGN-IN METHOD** tab - you don't need to enable custom auth.
      - For **Custom Auth**, generate a Service Account credentials in your [Firebase Console > Project Settings > Service Accounts](https://console.firebase.google.com/project/_/settings/serviceaccounts/adminsdk), and click on **GENERATE NEW PRIVATE KEYS**. You will need it in the [example token generator](exampletokengenerator/auth.html).
      - For **Facebook**, **Twitter** and **GitHub** you will need to create an application as a developer on their respective developer platform, whitelist `https://<project_id>.firebaseapp.com/__/auth/handler` for auth redirects and enable and setup the app's credentials in the **Firebase Console > Authentication > SIGN-IN METHOD**.
- 1. You must have the [Firebase CLI](https://firebase.google.com/docs/cli/) installed. If you don't have it install it with `npm install -g firebase-tools` and then configure it with `firebase login`.
- 1. On the command line, `cd` into the `quickstart-js/auth` subdirectory.
- 1. Run `firebase use --add` and select your Firebase project.
+         - Was not able to find the way to go to authentication. So I tried the url:
+         - <https://console.firebase.google.com/u/0/project/ull-esit-dmsi/authentication>
+ 2. You must have the [Firebase CLI](https://firebase.google.com/docs/cli/) installed. If you don't have it install it with `npm install -g firebase-tools` and then configure it with `firebase login`.
+ 3. On the command line, `cd` into the `quickstart-js/auth` subdirectory.
+ 4. Run `firebase use --add` and select your Firebase project.
 
 To run the sample app locally during development:
  1. Run `firebase serve`.
