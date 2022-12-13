@@ -37,8 +37,9 @@ Samples are organized into the following subdirectories and include README.md fi
    - Send notifications
 ## Where 
 
-Project Console: https://console.firebase.google.com/project/ull-esit-dmsi/overview
-Hosting URL: https://ull-esit-dmsi.web.app
+* Project Console: https://console.firebase.google.com/project/ull-esit-dmsi/overview
+* Hosting URL: https://ull-esit-dmsi.web.app
+* Instructions for [Authentication](auth/README.md)
 
 ## How to make contributions?
 Please read and follow the steps in the [CONTRIBUTING.md](CONTRIBUTING.md)
